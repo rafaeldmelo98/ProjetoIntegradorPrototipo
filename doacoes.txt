@@ -1,0 +1,29 @@
+0;Painel Uno Mile; Painel para Uno Mille 2004;Automovel;11/09/2021
+1;Painel Uno Mile; Painel para Uno Mille 2003;Automovel;11/09/2020
+2;Amortecedor Vectra gt 2011;Original gm (Cofap turbo gás) dianteiro;Automovel;15/09/2020
+3;Pneus bridgestone *5 PNEUS*;Dá pra rodar muito ainda.Tem dois muito filé.265/60/18;Automovel;13/09/2020
+4;Fusca;Fusca para descarte, só sucata mesmo. Pronto para desmanche;Automovel;16/09/2020
+5;Escapamento Honda CB;Escpamento para moto Honda CB 450 DX, cromado;Automovel;12/09/2020
+6;Sofá antigo;Sofá em bom estadp de conservação, 3 anos de uso, inteiro pronto para o segundo dono; móvel;14/09/2020
+7;Comoda;Comoda com 6 gavetas em ótimo estado de conservação;Móvel;14/09/2020
+8;Cama de casal;Cama de casal em madeira maciça, bom estado de conservação;Móvel;17/10/2020
+9;Guarda-Roupas Solteiro;Guarda-Roupas de solteiro em perfeito estado, 3 meses de uso. Entrego já desmontado;Movél;16/9/2020
+10;Mesa de jantar;Conjunto mesa de janter, tampo de granito e corpo em ferro. Acompanha 4 cadeiras. Em bom estado de conservação;Móvel;9/09/2020
+11;Roupas de Inverno;Conjunto de roupas de inverno com 60 peças de todos os tamanhos e tipos;Roupas;18/06/2020
+12;Par de botas feminino;Par de botas feminino, tamanho 37, bem conservado, usado apenas 5 vezes;Roupas;4/07/2020
+13;Jaqueta;Jaqueta Masculina Oakley tamanho 42 com ziper e bolso interno, pouco tempo de uso;Roupas;25/06/2020
+14;Camisa social;Camisa social preta, manga longa, tamanho 39, novinha;roupas;05/07/2020
+15;Camisa xadrez;Camisa xadrez masculina, na cor azul e vermelho, tamanho 40; 2 meses que comprei;Roupas
+16;Monitor Antigo;Computador antigo de 1985. Não funciona, serve apenas para desmonte (Acompanha mouse e teclado);eletroeletronico;07/10/2020
+17;Televisão de tubo;Televisão antiga, porém 100% funcional. Precisa de conversor para assistir os canais abertos. Não tenho mais o controle, mas qualquer controle universal funciona nela;Eletroeletronico;20/03/2020
+18;Micro-ondas;Micro ondas Brastemp 100% funcional;Eletrodomestico;20/10/2020
+19;Geladeira;Geladeira SempToshiba 280Litros conservada;Eletrodomestico;20/10/2020
+20;Ventilador de teto;Ventilador de teto, 100% funcionando e de fácil instalação;Eletrodomestico; 15/11/2020
+21;Fogao;Fogão 4 bocas, da marca Dako, 1 e 6 meses de uso, bem conservado;Eletrodomestico;4/08/2020
+22;Aspirador de po;Aspirador de pó Philco 5000W de potencia;Eletrodomestico;12/11/2020
+23;Maquina de lavar;Maquina de Lavar Brastemp 12Kg, bem conservada e 100% funcionando;Eletrodomestico;15/10/2020
+24;Chuveiro;Chuveiro bom, esquenta muito;Eletrodomestico;10/11/2020 
+25;Televisão;Televisão Sony Bravia 43polegadas, tela plana, LCD;Eletrodomestico;01/10/2020
+858;Braço;Cabeça;Roupa;14/08/2020
+842;Olhos;Ouvido;Roupa;14/08/2020
+347;Perna;Pé;Roupa;14/08/2020
