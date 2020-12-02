@@ -1,0 +1,4 @@
+4;Fusca;Fusca para descarte, só sucata mesmo. Pronto para desmanche;Automovel;16/09/2020
+16;Monitor Antigo;Computador antigo de 1985. Não funciona, serve apenas para desmonte (Acompanha mouse e teclado);Eletroeletronico;07/10/2020
+326;Pneu;Pneu velho e rasgado;Automóvel;07/10/2020
+555;Palete;Mofado, porém em ótimo estado de consevação;Outros;15/11/2020

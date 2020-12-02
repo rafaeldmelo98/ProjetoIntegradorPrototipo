@@ -1,0 +1,6 @@
+5;Escapamento Honda CB;Escpamento para moto Honda CB 450 DX, cromado;Automovel;12/09/2020;250
+10;Mesa de jantar;Conjunto mesa de janter, tampo de granito e corpo em ferro. Acompanha 4 cadeiras. Em bom estado de conservação;Móvel;9/09/2020;500
+11;Roupas de Inverno;Conjunto de roupas de inverno com 60 peças de todos os tamanhos e tipos;Roupas;18/06/2020;20
+25;Televisão;Televisão Sony Bravia 43polegadas, tela plana, LCD;Eletrodomestico;01/10/2020;1500
+300;Fogao;Fogão 4 bocas, da marca Dako, 1 e 6 meses de uso, bem conservado;Eletrodomestico;4/08/2020;300
+3;Pneus bridgestone *5 PNEUS*;Dá pra rodar muito ainda.Tem dois muito filé.265/60/18;Automovel;13/09/2020;1250

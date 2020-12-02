@@ -8,7 +8,7 @@
 123;Par de botas feminino;Par de botas feminino, tamanho 37, bem conservado, usado apenas 5 vezes;Roupas;4/07/2020
 136;Jaqueta;Jaqueta Masculina Oakley tamanho 42 com ziper e bolso interno, pouco tempo de uso;Roupas;25/06/2020
 149;Camisa social;Camisa social preta, manga longa, tamanho 39, novinha;roupas;05/07/2020
-185;Camisa xadrez;Camisa xadrez masculina, na cor azul e vermelho, tamanho 40; 2 meses que comprei;Roupas
+185;Camisa xadrez;Camisa xadrez masculina, na cor azul e vermelho, tamanho 40; 2 meses que comprei;Roupas;10/06/2020
 170;Televisão de tubo;Televisão antiga, porém 100% funcional. Precisa de conversor para assistir os canais abertos. Não tenho mais o controle, mas qualquer controle universal funciona nela;Eletroeletronico;20/03/2020
 18;Micro-ondas;Micro ondas Brastemp 100% funcional;Eletrodomestico;20/10/2020
 19;Geladeira;Geladeira SempToshiba 280Litros conservada;Eletrodomestico;20/10/2020
@@ -17,5 +17,3 @@
 221;Aspirador de po;Aspirador de pó Philco 5000W de potencia;Eletrodomestico;12/11/2020
 23;Maquina de lavar;Maquina de Lavar Brastemp 12Kg, bem conservada e 100% funcionando;Eletrodomestico;15/10/2020
 248;Chuveiro;Chuveiro bom, esquenta muito;Eletrodomestico;10/11/2020 
-48;Tipo;Alguma descricao;Outros;02/12/2020
-70;;;Outros;15
