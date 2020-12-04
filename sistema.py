@@ -1,3 +1,7 @@
+'''
+Este arquivo é responsável por toda a lógica incorporada na aplicação
+'''
+
 import random
 from usuario import Usuario
 from doacao import Doacao
@@ -10,7 +14,7 @@ class Sistema:
     bazar = []
     ferrovelho = []
 
-
+    # Função responsável pela autenticação de usuários
     def autenticacao(self):
         login_usuario = input("Digite o login   : ")
         senha_usuario = input("Digite sua senha : ")
@@ -22,7 +26,7 @@ class Sistema:
             print("\nUsuário informado não existe!")
             return False
 
-
+    # Função responsável pelo cadastro de novos usuários
     def cadastro(self):
         login = input("Digite um login  : ")
         senha = input("Crie uma senha   : ")
@@ -39,7 +43,7 @@ class Sistema:
             print("Senhas não coincidem! Tente novamente, por favor.\n")
             return False
 
-
+    # Função responsável por carregar todas as informações do sistema ("Banco de Dados")
     def carregar_conteudo(self):
         documentos = ['usuarios.txt', 'doacoes.txt', 'bazar.txt', 'ferrovelho.txt']
         for documento in documentos:
@@ -72,7 +76,7 @@ class Sistema:
                             ferrovelho = Doacao(id, titulo, descricao, categoria, data)
                             self.ferrovelho.append(ferrovelho)
 
-
+    # Função responsável para cadastrar novos usuários no "banco de dados"
     def cadastrar_usuario(self, login, senha):
         user = Usuario(login, senha)
         self.usuarios.append(user)
@@ -80,7 +84,7 @@ class Sistema:
         db_usuarios.write(f"\n{user.login};{user.senha}")
         db_usuarios.close()
 
-
+    # Função responsável por listar anúncios de um tipo específico
     def listar_anuncios(self, anuncios):
         exibir_todos = False
         escolha = 0
@@ -97,7 +101,7 @@ class Sistema:
         else:
             input("Não há mais anúncios para exibir!\n\n[Enter]")
 
-
+    # Função responsável por cadastrar novas doações e descartes
     def cadastrar_doacao(self, id, titulo, descricao, categoria, data, anuncios, tipo):
         doacao = Doacao(id, titulo, descricao, categoria, data)
         anuncios.append(doacao)
@@ -110,7 +114,7 @@ class Sistema:
             db_usuarios.write(f"\n{doacao.id};{doacao.titulo};{doacao.descricao};{doacao.categoria};{doacao.data}")
             db_usuarios.close()
 
-
+    # Função responsável por cadastrar novos itens de venda
     def cadastrar_venda(self, id, titulo, descricao, categoria, valor, data):
         venda = Venda(id, titulo, descricao, categoria, valor, data)
         self.bazar.append(venda)
@@ -118,7 +122,7 @@ class Sistema:
         db_usuarios.write(f"\n{venda.id};{venda.titulo};{venda.descricao};{venda.categoria};{venda.valor};{venda.data}")
         db_usuarios.close()
 
-
+    # Função responsável por remover/receber itens das listas de itens (venda,doacao,descarte)
     def receber_anuncio(self, tipo, anuncios):
         escolha = 0
         documento = ''
@@ -161,14 +165,14 @@ class Sistema:
                         f"{anuncio.id};{anuncio.titulo};{anuncio.descricao};{anuncio.categoria};{anuncio.data};{anuncio.valor}\n")
                     db_documento.close()
 
-
+    # Funcão responsável por checar a existência de um usuário
     def checa_usuario(self, login, senha):
         for indice in range(len(self.usuarios)):
             if self.usuarios[indice].login == login and self.usuarios[indice].senha == senha:
                 return True
         return False
 
-
+    # Função responsável por filtrar tipo de acao e chamar função cadastro
     def realizar_acao(self, lista, anuncios):
         id = 0
         id_correto = True

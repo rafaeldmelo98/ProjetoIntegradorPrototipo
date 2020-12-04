@@ -1,3 +1,7 @@
+'''
+Esse arquivo é responsável pelas classes Doacao e Venda
+'''
+
 class Doacao:
     def __init__(self, id, titulo, descricao, categoria, data):
         self.id = id

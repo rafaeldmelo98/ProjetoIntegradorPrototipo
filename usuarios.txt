@@ -2,3 +2,4 @@ joao;123
 rafael;456
 gustavo;789
 kill;666
+professor;666

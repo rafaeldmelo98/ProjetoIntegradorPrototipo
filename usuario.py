@@ -1,3 +1,7 @@
+'''
+Esse arquivo é responsável pela classe Usuário
+'''
+
 class Usuario:
     def __init__(self, login, senha):
         self.__login = login

@@ -18,4 +18,3 @@
 23;Maquina de lavar;Maquina de Lavar Brastemp 12Kg, bem conservada e 100% funcionando;Eletrodomestico;15/10/2020
 248;Chuveiro;Chuveiro bom, esquenta muito;Eletrodomestico;10/11/2020 
 48;Tipo;Alguma descricao;Outros;02/12/2020
-70;;;Outros;15

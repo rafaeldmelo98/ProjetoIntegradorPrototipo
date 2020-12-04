@@ -1,11 +1,19 @@
+'''
+Este arquivo é responsável pela exibição de alguns pedaços de código.
+
+Layout para usuário.
+
+'''
+
 class Tela:
+    # Exibe tela inicial
     def exibirBemVindo(self):
         print("\n=======================================================================\n")
         print("\t\t\t\t\tBem Vindx ao ReApp!")
         print("\n=======================================================================\n")
         return
 
-
+    # Exibe tela de login
     def exibirLogin(self):
         user = 0
         while user != '1' or user != '2':
@@ -15,7 +23,7 @@ class Tela:
             elif user == '2':
                 return False
 
-
+    # Exibe menu principal
     def exibirMenu(self):
         selecao = input("\t\t\t\t\tReApp\n\n"
               "Selecione uma opção.\n\n"
@@ -24,12 +32,12 @@ class Tela:
               "\n[7]Sobre o App\n[8]Sair\n\n-> ")
         return selecao
 
-
+    # Exibe cabeçalho da função de busca
     def exibirAnuncio(self):
         print("\t\t\t\t\tReApp\n\n")
         print("Estes são os anúncios desta seção disponíveis no momento!")
 
-
+    # Informa sobre intenções do aplicativo
     def exibirSobre(self):
         print("Essa aplicação é um prótotipo para um aplicativo mobile desenvolvido e idealizado\n"
               "por Gustavo Henrique, João V. Souza  e Rafael de Melo. O intuito desse aplicativo é\n"
@@ -43,7 +51,7 @@ class Tela:
               "não vê mais valor, pois para um outro usuário, aquele lixo ainda pode servir de\n"
               "alguma forma!")
 
-
+    # Exibe formulário
     def exibirFormulario(self, acao):
         print("Informe abaixo os campos necessários para realizar sua venda.\n\n")
         titulo = input("Titulo da doação:   ")
@@ -76,7 +84,7 @@ class Tela:
         lista = [acao,titulo,descricao,categoria,data]
         return lista
 
-
+    # Exibe mensagem de erro
     def erroMensagem(self):
         print("\n============================================================================")
         print("\t\t\t\t\t\t\tOcorreu um erro, tente novamente!")
